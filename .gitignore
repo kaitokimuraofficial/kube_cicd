@@ -1,0 +1,27 @@
+# Ignore dotfiles
+.DS_Store
+.idea
+.vs_code
+
+
+# Local .terraform directories
+**/.terraform/*
+
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+**/terraform.tfvars
+
+**.tfbackend
+backend.hcl
+
+*.pub
+*_key
+
+.env
+node_modules
+
+.terraform.lock.hcl
+terraform-study.iml
